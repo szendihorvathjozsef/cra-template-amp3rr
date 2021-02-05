@@ -1,0 +1,21 @@
+{
+  "name": "cra-template-amp3rr",
+  "version": "1.0.0",
+  "author": "AmP3RR (Szendi-Horváth József)",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "amperr"
+  ],
+  "description": "TypeScript template for Create React App with changes to my taste.",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

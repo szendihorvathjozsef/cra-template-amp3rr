@@ -1,0 +1,31 @@
+{
+  "required": "Kérjük, töltsd ki ezt a mezőt!",
+  "requiredAll": "Kérjük, minden mezőt tölts ki!",
+  "invalidFormat": "Kérjük, {{subject}} adj meg.",
+  "maxLength": "Maximum {{length}} karakter hosszú szöveget adj meg.",
+  "lessThan": "Kérjük, a megadott szám legyen kisebb, mint {{number}}.",
+  "greaterThan": "Kérjük, a megadott szám legyen nagyobb, mint {{number}}.",
+  "greaterThanEqual": "Az érték legyen nagyobb vagy egyenlő, mint {{number}}.",
+  "lessThanEqual": "Az érték legyen kisebb vagy egyenlő, mint {{number}}.",
+  "isAfter": "A megadott dátum nem lehet nagyobb, mint {{date}}.",
+  "isBefore": "A megadott dátum nem lehet kisebb, mint {{date}}.",
+  "passwordMismatch": "A két jelszónak meg kell egyeznie.",
+  "passwordPolicy": "Tartalmaznia kell számot, kis-, és nagybetűt, valamint minimum 8 karakter hosszúnak kell lennie.",
+  "oldPasswordMatch": "Az új jelszó nem egyezhet meg a régivel.",
+  "registrationStartErr": "Hiba történt a regisztráció során, próbáld újra később!",
+  "maxFileSize": "A file mérete legyen kisebb vagy egyenlő, mint {{size}} {{unit}}.",
+  "notNegative": "Az érték nem lehet negatív",
+  "caption": {
+    "subject": {
+      "email": "email címet",
+      "number": "számot",
+      "time": "helyes időpontot",
+      "taxNumber": "érvényes adószámot",
+      "url": "webcímet",
+      "phone": "telefonszámot",
+      "bankAccountNumber": "helyes számlaszámot",
+      "ipAddress": "IP-címet"
+    }
+  },
+  "maxSize": "Maximum 1 MB méretű kép tölthető fel."
+}

@@ -1,0 +1,9 @@
+{
+  "format": {
+    "date": "{{date, date}}",
+    "time": "{{date, time}}",
+    "datetime": "{{date, datetime}}",
+    "number": "{{number, number}}",
+    "currency": "{{number, currency}}"
+  }
+}

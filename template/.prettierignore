@@ -1,0 +1,8 @@
+.gitlab-ci.yml
+tsconfig.json
+Dockerfile
+package.json
+package-lock.json
+yarn.lock
+.deploy/
+README.md

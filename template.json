@@ -1,0 +1,58 @@
+{
+  "package": {
+    "dependencies": {
+      "@reduxjs/toolkit": "^1.5.0",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/jest": "^26.0.15",
+      "@types/node": "^12.0.0",
+      "@types/numeral": "^2.0.0",
+      "@types/react": "^16.9.53",
+      "@types/react-dom": "^16.9.8",
+      "@types/react-redux": "^7.1.16",
+      "@types/react-router-dom": "^5.1.7",
+      "axios": "^0.21.1",
+      "date-fns": "^2.16.1",
+      "i18next": "^19.8.7",
+      "i18next-browser-languagedetector": "^6.0.1",
+      "i18next-http-backend": "^1.1.0",
+      "numeral": "^2.0.6",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-hook-form": "^6.15.1",
+      "react-i18next": "^11.8.5",
+      "react-imask": "^6.0.5",
+      "react-query": "^3.6.0",
+      "react-redux": "^7.2.2",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.1",
+      "typescript": "^4.0.3",
+      "web-vitals": "^0.2.4"
+    },
+    "devDependencies": {
+      "cross-env": "^7.0.3",
+      "eslint-plugin-jest-dom": "^3.6.5",
+      "eslint-plugin-prettier": "^3.3.1",
+      "eslint-plugin-testing-library": "^3.10.1",
+      "husky": "^4.3.8",
+      "prettier": "^2.2.1",
+      "pretty-quick": "^3.1.0"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"],
+      "plugins": ["prettier"],
+      "rules": {
+        "prettier/prettier": "warn"
+      }
+    },
+    "scripts": {
+      "build:ci": "cross-env HUSKY_SKIP_INSTALL=true GENERATE_SOURCEMAP=false react-scripts build"
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "pretty-quick --staged"
+      }
+    }
+  }
+}
